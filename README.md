@@ -54,6 +54,9 @@ class DemoApp extends StatelessWidget {
       // Define the light theme for the app, based on defined colors.
       theme: FlexColorScheme.light(
         colors: _mySchemeLight,
+        // Just want to use a built in scheme? Then comment colors above and
+        // use scheme below to select a built-in one:
+        // scheme: FlexScheme.hippieBlue,
         surfaceStyle: FlexSurface.medium,
         appBarStyle: FlexAppBarStyle.primary,
         appBarElevation: 0,
@@ -74,6 +77,9 @@ class DemoApp extends StatelessWidget {
         colors: _mySchemeLight.toDark(30),
         // If you want to use the defined custom dark colors, use it instead:
         // colors: _mySchemeDark,
+        // Just want to use a built in scheme? Then comment colors above and
+        // use scheme below to select a built-in one:
+        // scheme: FlexScheme.hippieBlue,
         surfaceStyle: FlexSurface.strong,
         appBarStyle: FlexAppBarStyle.background,
         appBarElevation: 0,
