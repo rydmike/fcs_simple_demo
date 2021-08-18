@@ -64,7 +64,7 @@ class DemoApp extends StatelessWidget {
         // The whiteBlend for the desaturation of the light theme colors
         // defaults to 35%, you can try other values too, here eg 30.
         colors: _mySchemeLight.toDark(30),
-        // If you want to use the defined custom dark colors, just use them:
+        // If you want to use the defined custom dark colors, use it instead:
         // colors: _mySchemeDark,
         surfaceStyle: FlexSurface.strong,
         appBarStyle: FlexAppBarStyle.background,
@@ -80,8 +80,7 @@ class DemoApp extends StatelessWidget {
       // Use the above dark or light theme based on active themeMode below.
       // Toggle in code here, or set to system to toggle with device.
       themeMode: ThemeMode.system,
-      // This simple example app has only one page.
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
