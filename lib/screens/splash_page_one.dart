@@ -30,18 +30,17 @@ class SplashPageOne extends StatelessWidget {
 
     // This splash page sets scaffold background to white in light theme and
     // to black in dark mode AND does the same via the annotated region for
-    // the system navigation bar, make it match the color.
+    // the system navigation bar, to make it match the color.
     // It also set noAppBar to true, making its scrim transparent in Android.
     // This setup should only be used when the Scaffold has no app bar, like
-    // here. This is a setup for the Splash page demo 1a in Example 5.
-    // When invertStatusIcons is set to true we get demo 1b in Example 5.
-    // This inverts the colors of the status bar icons making them invisible,
-    // BUT only if the background is white in light theme mode and black in
-    // dark theme mode, both are usable for splash and onboarding flows.
+    // here.
+    // When invertStatusIcons it inverts the colors of the status bar icons
+    // making them invisible, BUT only if the background is white in light
+    // theme mode and black in dark theme mode, both are usable for
+    // splash and onboarding flows.
     //
     // This setup is an alternative way to produce a clean splash page, the
     // other more standard way is presented with SplashPageTwo.
-    //
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: FlexColorScheme.themedSystemNavigationBar(
         context,

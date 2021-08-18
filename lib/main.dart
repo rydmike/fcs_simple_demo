@@ -5,7 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'screens/home_page.dart';
 
 // -----------------------------------------------------------------------------
-// FLEX COLOR SCHEME SIMPLE CUSTOM THEME EXAMPLE
+// FlexColorScheme Simple Custom Theme Example.
 //
 // This example shows how you can use define a few colors, use FlexColorScheme
 // to theme your app with them and also define other FlexColorScheme theme
@@ -77,9 +77,9 @@ class DemoApp extends StatelessWidget {
         visualDensity: FlexColorScheme.comfortablePlatformDensity,
         fontFamily: GoogleFonts.lato().fontFamily,
       ).toTheme,
-      // Use the above dark or light theme based on active themeMode.
+      // Use the above dark or light theme based on active themeMode below.
       // Toggle in code here, or set to system to toggle with device.
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.system,
       // This simple example app has only one page.
       home: HomePage(),
     );

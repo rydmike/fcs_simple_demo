@@ -30,7 +30,6 @@ class SplashPageTwo extends StatefulWidget {
 class _SplashPageTwoState extends State<SplashPageTwo> {
   @override
   void initState() {
-    //
     // This call will remove to top and bottom UI overlays.
     //
     // For some reason on some newer Android versions, it does not work
@@ -54,7 +53,6 @@ class _SplashPageTwoState extends State<SplashPageTwo> {
 
   @override
   void dispose() {
-    //
     // Set the UI overlays back when we dispose this screen.
     //
     // This screen needs to be stateful so we can correctly manage the
@@ -72,7 +70,6 @@ class _SplashPageTwoState extends State<SplashPageTwo> {
     // (blending) in FlexColorScheme, it will included a hint of the
     // primary color. This is just done in this example to show that
     // this way we can use a colored background.
-    //
     return AnnotatedRegion<SystemUiOverlayStyle>(
       // This make system navigation bar theme background color, since we use
       // that in this example for the scaffold background as well, it should

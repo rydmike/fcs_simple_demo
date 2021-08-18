@@ -1,5 +1,5 @@
 // The content of the HomePage below is not relevant for using FlexColorScheme
-// based application theming. The critical parts are in the above MaterialApp
+// based application theming. The critical parts are in the MaterialApp
 // theme definitions. The HomePage just contains UI to visually show what the
 // defined example looks like in an application and with commonly used Widgets.
 import 'package:flex_color_scheme/flex_color_scheme.dart';
@@ -26,7 +26,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  // The reason for HomePage is using a stateful widget is that it holds the
+  // The reason why HomePage is using a stateful widget is that it holds the
   // state of the dummy side menu/rail locally.
   double currentSidePanelWidth = AppConst.expandWidth;
   bool isSidePanelExpanded = true;
