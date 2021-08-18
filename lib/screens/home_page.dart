@@ -133,13 +133,13 @@ class _HomePageState extends State<HomePage> {
                     const Text(
                         'This example shows how you can use custom colors'
                         'with FlexColorScheme in light and dark mode, '
-                        'just as defined values in stateless app.\n\n'
+                        'just as defined values in a stateless app.\n\n'
                         ''
-                        'Using ThemeMode.system and device settings to toggle '
-                        'between light and dark theme.\n\n'
+                        'It uses ThemeMode.system and device settings to '
+                        'toggle between light and dark theme.\n\n'
                         ''
-                        'The example also has place holders in the code '
-                        'that you can toggle to test other FlexColorScheme '
+                        'The example also has property place holders that '
+                        'you can use to toggle and test other FlexColorScheme '
                         'features easily.'),
 
                     const SizedBox(height: 8),
