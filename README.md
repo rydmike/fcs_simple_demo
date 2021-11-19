@@ -13,6 +13,14 @@ font for your theme.
 This demo is in addition to the examples 1...5 already included with the
 package.
 
+> ## FlexColorScheme V4 notice
+>
+> Version 4 of FlexColorScheme's default example is a variant of this setup that
+> has many more properteis setup as pre-configured hot reload values that you
+> can use to experiemnt with FlexColorScheme. It also has extensive comments 
+> explaining all the proeprties it demonstrates. You can find it here: 
+> https://github.com/rydmike/flex_color_scheme/blob/master/example/lib/main.dart
+
 ## Example
 
 This example just defines a single custom color scheme for light and dark
